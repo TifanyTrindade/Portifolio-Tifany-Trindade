@@ -50,6 +50,14 @@ main {
 main h1 {
     font-size: 40px;
     margin-top: -25px; /*Move o texto para cima*/
+
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out; /* Suaviza a transição de cor */
+}
+
+main h1:hover {
+    color: #b238ef; /* Cor ao passar o mouse (rosa, por exemplo) */
 }
 
 main h2{
@@ -68,10 +76,18 @@ main h3 {
 main img {
     width: 270px; /* Largura */
     height: auto; /* Mantem a roporção original */
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 /*Imagens Redes Sociais*/
+.container {
+    display: flex;
+    justify-content: center; /* Centraliza as imagens */
+    gap: 0;
+}
 
-
-
+#git img, #link img {
+    width: 55px;
+    margin-left: -15px;
+    
+}
