@@ -43,11 +43,11 @@ nav a:hover {
 
 
 /*Texto principal */
-main {
+#Home {
     text-align: center;
 }
 
-main h1 {
+#Home h1 {
     font-size: 40px;
     margin-top: -25px; /*Move o texto para cima*/
 
@@ -56,24 +56,24 @@ main h1 {
     transition: color 0.3s ease-in-out; /* Suaviza a transição de cor */
 }
 
-main h1:hover {
+#Home h1:hover {
     color: #b238ef; /* Cor ao passar o mouse (rosa, por exemplo) */
 }
 
-main h2{
+#Home h2{
     font-family: Thasadith; /*Fonte Google Fonts*/
     font-size: 15px; /*Tamanho da fonte*/
     line-height: 1.5; /*Espaçamento entre as linhas*/ 
     letter-spacing: 2px; /*Espaçamento entre as letras*/
 }
 
-main h3 {
+#Home h3 {
     font-family: Thasadith; /*Fonte Google Fonts*/
     font-size: 15px; /*Tamanho da fonte*/
     letter-spacing: 2px; /*Espaçamento entre as letras*/
 }
 
-main img {
+#Home img {
     width: 270px; /* Largura */
     height: auto; /* Mantem a roporção original */
     margin-top: 100px;
@@ -89,5 +89,6 @@ main img {
 #git img, #link img {
     width: 55px;
     margin-left: -15px;
+    margin-top: 10px;
     
 }
