@@ -95,46 +95,33 @@ nav a:hover {
 
 /*Configurações Home*/
 #Sobre {
-    margin-top: 100px; /*Move para baixo*/
+    margin-top: 100px;
     box-sizing: border-box;
     background-color: #242424;
+    display: flex; /* Define um layout flexível */
+    align-items: center; /* Alinha verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    gap: 50px; /* Espaço entre imagem e texto */
+    padding: 50px; /* Espaçamento interno */
 }
 
 #Sobre img {
     width: 400px;
     height: 500px;
-    margin-top: 50px;
-    margin-left: 300px;
+}
+
+.texto {
+    max-width: 50%; /* Define um tamanho máximo para o texto */
+    color: white; /* Para contraste */
 }
 
 #Sobre h1 {
-    float: right;
-    width: 50%; /* Define uma largura para evitar que ocupe toda a tela */
-    margin-top: -500px;
+    font-size: 32px;
+    margin-bottom: 20px;
 }
 
-#Sobre p{
+#Sobre p {
     font-family: Thasadith;
-    text-align: center;
-    width: 80%; /* Define uma largura para evitar que ocupe toda a tela */
-    
+    text-align: left; /* Alinha à esquerda para melhor leitura */
+    width: 100%;
 }
-
-.container {
-    display: flex;
-    align-items: center; /* Centraliza verticalmente */
-    justify-content: center; /* Opcional: centraliza horizontalmente */
-    gap: 20px; /* Espaço entre a imagem e o texto */
-  }
-  
-  .imagem {
-    display: flex;
-    
-    width: 150px; /* Ajuste conforme necessário */
-    height: auto;
-    text-align: right;
-  }
-  
-  .texto {
-    font-size: 18px;
-  }
