@@ -88,7 +88,53 @@ nav a:hover {
 
 #git img, #link img {
     width: 55px;
-    margin-left: -15px;
+    margin-left: -30px;
     margin-top: 10px;
     
 }
+
+/*Configurações Home*/
+#Sobre {
+    margin-top: 100px; /*Move para baixo*/
+    box-sizing: border-box;
+    background-color: #242424;
+}
+
+#Sobre img {
+    width: 400px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+#Sobre h1 {
+    float: right;
+    width: 50%; /* Define uma largura para evitar que ocupe toda a tela */
+    margin-top: -500px;
+}
+
+#Sobre p{
+    font-family: Thasadith;
+    text-align: center;
+    width: 80%; /* Define uma largura para evitar que ocupe toda a tela */
+    
+}
+
+.container {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Opcional: centraliza horizontalmente */
+    gap: 20px; /* Espaço entre a imagem e o texto */
+  }
+  
+  .imagem {
+    display: flex;
+    
+    width: 150px; /* Ajuste conforme necessário */
+    height: auto;
+    text-align: right;
+  }
+  
+  .texto {
+    font-size: 18px;
+  }
