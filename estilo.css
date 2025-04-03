@@ -110,6 +110,20 @@ nav a:hover {
     filter: invert(37%) sepia(76%) saturate(680%) hue-rotate(256deg) brightness(91%) contrast(96%);
 }
 
+/*Configurações Sobre*/
+.sobre {
+    text-align: center;
+}
+
+.sobre img {
+    width: 400px;
+    height: 500px;
+    
+}
+
+
+
+
 /*Footer*/
 footer {
     color: white;
