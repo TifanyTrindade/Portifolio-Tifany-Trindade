@@ -79,62 +79,53 @@ nav a:hover {
     margin-top: 100px;
 }
 
-/*Imagens Redes Sociais*/
-.container {
+/*Redes Sociais*/
+.redes-sociais {
     display: flex;
     justify-content: center; /* Centraliza as imagens */
     gap: 0;
 }
 
 #git img {
-    width: 60px;
+    width: 70px;
     margin-left: -20px;
     margin-top: 10px;
     justify-items: center;
-    /*Parei aqui*/
-    
+    transition: filter 0.3s ease-in-out; /* Suaviza a transição da cor */  
 }
 
-/*Configurações Home*/
-#Sobre {
-    margin-top: 100px;
-    box-sizing: border-box;
-    background-color: #242424;
-    display: flex;
-    flex-wrap: wrap; /* Permite quebrar linha */
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    padding: 50px;
-    text-align: center; /* Centraliza o texto em telas pequenas */
+#git:hover {
+    filter: invert(37%) sepia(76%) saturate(680%) hue-rotate(256deg) brightness(91%) contrast(96%);
 }
 
-#Sobre img {
-    width: 100%;
-    max-width: 300px; /* Ajusta tamanho da imagem */
-    height: auto;
+#link img {
+    width: 70px;
+    margin-left: -20px;
+    margin-top: 10px;
+    justify-items: center; 
+    transition: filter 0.3s ease-in-out; /* Suaviza a transição da cor */  
+}   
+
+#link:hover {
+    filter: invert(37%) sepia(76%) saturate(680%) hue-rotate(256deg) brightness(91%) contrast(96%);
 }
 
-.texto {
-    max-width: 90%; /* Evita que o texto fique muito estreito */
+/*Footer*/
+footer {
     color: white;
+    background-color: #242424;
+    text-align: center;
+    padding: 15px;  /* Espaço da borda */
+    position: fixed; /* Mantém o rodapé fixo */
+    bottom: 0; /* Gruda no final da tela */
+    width: 100%; /* Ocupa toda a largura */
+    font-size: 15px; /* Tamanho do texto */
 }
 
-#Sobre h1 {
-    font-size: 28px;
-}
+footer p {
+    transition: filter 0.3s ease-in-out; /* Suaviza a transição da cor */  
+}   
 
-@media (max-width: 768px) {
-    #Sobre {
-        flex-direction: column; /* Muda para coluna */
-        padding: 30px;
-    }
-
-    .texto {
-        max-width: 100%;
-    }
-
-    #Sobre h1 {
-        font-size: 24px;
-    }
+footer p:hover {
+    filter: invert(37%) sepia(76%) saturate(680%) hue-rotate(256deg) brightness(91%) contrast(96%);
 }
