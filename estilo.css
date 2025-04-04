@@ -1,145 +1,154 @@
 @charset 'UTF-8';
-@import url('https://fonts.googleapis.com/css2?family=Thasadith:ital@0;1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Thasadith:ital@0;1&display=swap");
 
 /*Geral*/
-*{
-    margin: 0px;
-    padding: 0px;
-    color: white;
+* {
+  margin: 0px;
+  padding: 0px;
+  color: white;
 }
 
 /*Configurações do Body*/
-body{
-    background-color: black;
+body {
+  background-color: black;
 }
 
 /*Estilização menu*/
 nav {
-    display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    padding: 10px;
-    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.485);
-    background-color: #242424;
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  padding: 10px;
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.485);
+  background-color: #242424;
 }
 
 nav ul {
-    display: flex;
-    gap: 20px; /*Espaçamento entre os itens*/
-    list-style: none;
+  display: flex;
+  gap: 20px; /*Espaçamento entre os itens*/
+  list-style: none;
 }
 
 nav li {
-    padding: 5px;
+  padding: 5px;
 }
 
 nav a {
-    color: white; /* Cor normal do link */
-    text-decoration: none;
-    transition: color 0.3s ease-in-out; /* Suaviza a transição de cor */
+  color: white; /* Cor normal do link */
+  text-decoration: none;
+  transition: color 0.3s ease-in-out; /* Suaviza a transição de cor */
 }
 nav a:hover {
-    color: #b238ef; /* Cor ao passar o mouse (rosa, por exemplo) */
-  }
-
+  color: #b238ef; /* Cor ao passar o mouse (rosa, por exemplo) */
+}
 
 /*Texto principal */
 #Home {
-    text-align: center;
+  text-align: center;
 }
 
 #Home h1 {
-    font-size: 40px;
-    margin-top: -25px; /*Move o texto para cima*/
+  font-size: 40px;
+  margin-top: -25px; /*Move o texto para cima*/
 
-    color: white;
-    text-decoration: none;
-    transition: color 0.3s ease-in-out; /* Suaviza a transição de cor */
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out; /* Suaviza a transição de cor */
 }
 
 #Home h1:hover {
-    color: #b238ef; /* Cor ao passar o mouse (rosa, por exemplo) */
+  color: #b238ef; /* Cor ao passar o mouse (rosa, por exemplo) */
 }
 
-#Home h2{
-    font-family: Thasadith; /*Fonte Google Fonts*/
-    font-size: 15px; /*Tamanho da fonte*/
-    line-height: 1.5; /*Espaçamento entre as linhas*/ 
-    letter-spacing: 2px; /*Espaçamento entre as letras*/
+#Home h2 {
+  font-family: Thasadith; /*Fonte Google Fonts*/
+  font-size: 15px; /*Tamanho da fonte*/
+  line-height: 1.5; /*Espaçamento entre as linhas*/
+  letter-spacing: 2px; /*Espaçamento entre as letras*/
 }
 
 #Home h3 {
-    font-family: Thasadith; /*Fonte Google Fonts*/
-    font-size: 15px; /*Tamanho da fonte*/
-    letter-spacing: 2px; /*Espaçamento entre as letras*/
+  font-family: Thasadith; /*Fonte Google Fonts*/
+  font-size: 15px; /*Tamanho da fonte*/
+  letter-spacing: 2px; /*Espaçamento entre as letras*/
 }
 
 #Home img {
-    width: 270px; /* Largura */
-    height: auto; /* Mantem a roporção original */
-    margin-top: 100px;
+  width: 270px; /* Largura */
+  height: auto; /* Mantem a roporção original */
+  margin-top: 100px;
 }
 
 /*Redes Sociais*/
 .redes-sociais {
-    display: flex;
-    justify-content: center; /* Centraliza as imagens */
-    gap: 0;
+  display: flex;
+  justify-content: center; /* Centraliza as imagens */
+  gap: 0;
 }
 
 #git img {
-    width: 70px;
-    margin-left: -20px;
-    margin-top: 10px;
-    justify-items: center;
-    transition: filter 0.3s ease-in-out; /* Suaviza a transição da cor */  
+  width: 70px;
+  margin-left: -20px;
+  margin-top: 10px;
+  justify-items: center;
+  transition: filter 0.3s ease-in-out; /* Suaviza a transição da cor */
 }
 
 #git:hover {
-    filter: invert(37%) sepia(76%) saturate(680%) hue-rotate(256deg) brightness(91%) contrast(96%);
+  filter: invert(37%) sepia(76%) saturate(680%) hue-rotate(256deg)
+    brightness(91%) contrast(96%);
 }
 
 #link img {
-    width: 70px;
-    margin-left: -20px;
-    margin-top: 10px;
-    justify-items: center; 
-    transition: filter 0.3s ease-in-out; /* Suaviza a transição da cor */  
-}   
+  width: 70px;
+  margin-left: -20px;
+  margin-top: 10px;
+  justify-items: center;
+  transition: filter 0.3s ease-in-out; /* Suaviza a transição da cor */
+}
 
 #link:hover {
-    filter: invert(37%) sepia(76%) saturate(680%) hue-rotate(256deg) brightness(91%) contrast(96%);
+  filter: invert(37%) sepia(76%) saturate(680%) hue-rotate(256deg)
+    brightness(91%) contrast(96%);
 }
 
 /*Configurações Sobre*/
 .sobre {
-    text-align: center;
+  background-color: #b238ef;
+  margin-top: 75px;
+  height: 600px;
 }
 
 .sobre img {
-    width: 400px;
-    height: 500px;
-    
+  width: 400px;
+  height: 500px;
+  margin-left: 300px;
 }
 
+.sobre h1 {
+  text-align: center;
+}
 
-
+.sobre p {
+  text-align: center;
+}
 
 /*Footer*/
 footer {
-    color: white;
-    background-color: #242424;
-    text-align: center;
-    padding: 15px;  /* Espaço da borda */
-    position: fixed; /* Mantém o rodapé fixo */
-    bottom: 0; /* Gruda no final da tela */
-    width: 100%; /* Ocupa toda a largura */
-    font-size: 15px; /* Tamanho do texto */
+  color: white;
+  background-color: #242424;
+  text-align: center;
+  padding: 15px; /* Espaço da borda */
+  position: fixed; /* Mantém o rodapé fixo */
+  bottom: 0; /* Gruda no final da tela */
+  width: 100%; /* Ocupa toda a largura */
+  font-size: 15px; /* Tamanho do texto */
 }
 
 footer p {
-    transition: filter 0.3s ease-in-out; /* Suaviza a transição da cor */  
-}   
+  transition: filter 0.3s ease-in-out; /* Suaviza a transição da cor */
+}
 
 footer p:hover {
-    filter: invert(37%) sepia(76%) saturate(680%) hue-rotate(256deg) brightness(91%) contrast(96%);
+  filter: invert(37%) sepia(76%) saturate(680%) hue-rotate(256deg)
+    brightness(91%) contrast(96%);
 }
