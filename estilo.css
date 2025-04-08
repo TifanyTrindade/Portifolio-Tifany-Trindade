@@ -15,7 +15,6 @@ body {
 
 /*Estilização menu*/
 nav {
-  
   display: flex;
   flex-wrap: wrap;
   justify-content: center; /* Centraliza horizontalmente */
@@ -114,24 +113,80 @@ nav a:hover {
 }
 
 /*Configurações Sobre*/
-.sobre {
-  background-color: #b238ef;
-  margin-top: 75px;
-  height: 600px;
+.sobre-mim {
+  background-color: #3a3a3a;
+  color: white;
+  padding: 50px 20px;
+  margin-top: 100px; /* aumenta a distância do topo */
 }
 
-.sobre img {
-  width: 400px;
-  height: 500px;
-  margin-left: 300px;
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+  flex-wrap: wrap;
 }
 
-.sobre h1 {
-  text-align: center;
+.imagem img {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+  border: 1px solid #555;
+  border-radius: 8px;
 }
 
-.sobre p {
-  text-align: center;
+.texto {
+  max-width: 600px;
+}
+
+.texto h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.texto p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Responsivo para tablets */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .imagem img {
+    width: 80%;
+    max-width: 250px;
+  }
+
+  .texto {
+    max-width: 90%;
+  }
+
+  .texto h2 {
+    font-size: 1.8rem;
+  }
+}
+
+/* Responsivo para celulares */
+@media (max-width: 480px) {
+  .imagem img {
+    width: 100%;
+  }
+
+  .texto h2 {
+    font-size: 1.5rem;
+  }
+
+  .texto p {
+    font-size: 0.95rem;
+  }
 }
 
 /*Footer*/
