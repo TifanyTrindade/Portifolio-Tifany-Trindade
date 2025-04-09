@@ -134,17 +134,19 @@ nav a:hover {
   width: 300px;
   height: auto;
   object-fit: cover;
-  border: 1px solid #555;
+  border: 1px solid #555 ;
   border-radius: 8px;
 }
 
 .texto {
   max-width: 600px;
+  font-family: Thasadith; /*Fonte Google Fonts*/
 }
 
 .texto h2 {
   font-size: 2rem;
   margin-bottom: 20px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .texto p {
