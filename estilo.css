@@ -36,7 +36,7 @@ nav li {
 nav a {
   color: white; /* Cor normal do link */
   text-decoration: none;
-  transition: color 0.3s ease-in-out; /* Suaviza a transição de cor */
+  transition: color 0.2s ease-in-out; /* Suaviza a transição de cor */
 }
 nav a:hover {
   color: #b238ef; /* Cor ao passar o mouse (rosa, por exemplo) */
@@ -53,7 +53,7 @@ nav a:hover {
 
   color: white;
   text-decoration: none;
-  transition: color 0.3s ease-in-out; /* Suaviza a transição de cor */
+  transition: color 0.2s ease-in-out; /* Suaviza a transição de cor */
 }
 
 #Home h1:hover {
@@ -91,7 +91,7 @@ nav a:hover {
   margin-left: -20px;
   margin-top: 10px;
   justify-items: center;
-  transition: filter 0.3s ease-in-out; /* Suaviza a transição da cor */
+  transition: filter 0.2s ease-in-out; /* Suaviza a transição da cor */
 }
 
 #git:hover {
@@ -114,10 +114,10 @@ nav a:hover {
 
 /*Configurações Sobre*/
 .sobre-mim {
-  background-color: #3a3a3a;
+  background-color: #242424;
   color: white;
   padding: 50px 20px;
-  margin-top: 100px; /* aumenta a distância do topo */
+  margin-top: 120px; /* aumenta a distância do topo */
 }
 
 .container {
@@ -131,10 +131,10 @@ nav a:hover {
 }
 
 .imagem img {
-  width: 300px;
+  width: 400px;
   height: auto;
   object-fit: cover;
-  border: 1px solid #555 ;
+  border: 1px solid #555;
   border-radius: 8px;
 }
 
@@ -146,13 +146,47 @@ nav a:hover {
 .texto h2 {
   font-size: 2rem;
   margin-bottom: 20px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
+  transition: color 0.2s ease-in-out; /* Suaviza a transição de cor */
+}
+
+.texto h2:hover {
+  color: #b238ef; /* Cor ao passar o mouse (rosa, por exemplo) */
 }
 
 .texto p {
-  font-size: 1rem;
+  font-size: 1em;
   line-height: 1.6;
   margin-bottom: 15px;
+}
+
+/*Imagens Sobre*/
+.imagem-container {
+  position: relative;
+  width: 400px; /* igual ao .imagem img */
+  height: auto;
+}
+
+.imagem-container img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #555;
+  border-radius: 8px;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.imagem-container img.base {
+  position: relative;
+  z-index: 1;
+}
+
+.imagem-container img.hover {
+  opacity: 0;
+  z-index: 2;
 }
 
 /* Responsivo para tablets */
