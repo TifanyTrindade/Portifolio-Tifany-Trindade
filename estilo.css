@@ -25,6 +25,8 @@ nav {
 
 nav ul {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 20px; /*Espaçamento entre os itens*/
   list-style: none;
 }
@@ -74,7 +76,8 @@ nav a:hover {
 }
 
 #Home img {
-  width: 270px; /* Largura */
+  width: 90%; /* Largura */
+  max-width: 270px;
   height: auto; /* Mantem a roporção original */
   margin-top: 100px;
 }
@@ -222,6 +225,14 @@ nav a:hover {
 
   .texto p {
     font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #git img,
+  #link img {
+    width: 50px;
+    margin-left: 0;
   }
 }
 
