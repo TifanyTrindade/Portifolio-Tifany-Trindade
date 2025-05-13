@@ -8,6 +8,11 @@
   color: white;
 }
 
+img{
+  max-width: 100%;
+  height: auto;
+}
+
 /*Configurações do Body*/
 body {
   background-color: black;
