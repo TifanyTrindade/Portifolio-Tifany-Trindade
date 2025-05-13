@@ -8,11 +8,6 @@
   color: white;
 }
 
-img{
-  max-width: 100%;
-  height: auto;
-}
-
 /*Configurações do Body*/
 body {
   background-color: black;
@@ -171,7 +166,8 @@ nav a:hover {
 /*Imagens Sobre*/
 .imagem-container {
   position: relative;
-  width: 400px; /* igual ao .imagem img */
+  width: 100%; /* igual ao .imagem img */
+  max-width: 400px;
   height: auto;
 }
 
