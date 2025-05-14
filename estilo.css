@@ -238,6 +238,18 @@ nav a:hover {
   }
 }
 
+/*Meus Projetos*/
+h1, p {
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+}
+p {
+  font-size: 30px;
+}
+
 /*Footer*/
 footer {
   color: white;
