@@ -239,6 +239,21 @@ nav a:hover {
 }
 
 /*Meus Projetos*/
+#meus-projetos {
+  margin-top: 6%;
+} 
+
+#meus-projetos h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.p1 {
+  font-size: 20px;
+  text-align: center;
+  font-family: Thasadith; /*Fonte Google Fonts*/
+}
+
 
 /*Footer*/
 footer {
